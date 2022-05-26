@@ -1,0 +1,120 @@
+body {
+ background: url("https://img.quizur.com/f/img614537dc9542a1.03289970.jpg?lastEdited=1631926256") center/cover;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-top: 80px;
+    padding-left: 300px;
+    
+}
+.card{
+    background-color: rgb(237, 235, 241);
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px rgb(11, 11, 56);
+    
+}
+.mediaCard {
+    background: url("https://www.viagenscinematograficas.com.br/wp-content/uploads/2015/01/Bahia-O-que-Fazer-Roteiros-Capa.jpg") center/cover;
+    width: 100%;
+    height: 250px;
+}
+
+.tittle {
+    color: rgb(60, 29, 90);
+    background-color: rgba(0, 0, 0, 0.24);
+    font-weight: 600;
+}
+
+.bottomText {
+    padding: 5px;
+    margin: 5px;
+    color: rgb(50, 24, 75);
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.actions {
+    margin: 10px;
+}
+.topCard {
+    margin: 5px;
+    padding: 5px;   
+}
+
+.topCard > p {
+    background-color:rgba(0, 0, 0, 0.24);
+    color: rgb(40, 21, 58);
+    font-weight: 650;
+}
+
+
+
+/* CARD 2*/
+
+.content2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-top: 80px;
+    padding-right: 300px;
+    
+}
+
+.mediaCard2 {
+    background: url("https://www.ie.com.br/wp-content/uploads/2021/12/cidades-mais-quentes-canada.jpeg") center/cover;
+    width: 100%;
+    height: 250px;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px rgb(11, 11, 56);
+}
+
+.topCard2 {
+    margin: 5px;
+    padding: 5px;   
+}
+.tittle2 {
+    color: rgb(60, 29, 90);
+    background-color: rgba(0, 0, 0, 0.24);
+    font-weight: 600;
+}
+
+.bottomText2 {
+    padding: 5px;
+    margin: 5px;
+    color: rgb(50, 24, 75);
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.actions {
+    border: 1px solid rgb(173, 128, 240);
+    background: rgb(123, 50, 126);
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+    font-size: 25px;    
+
+
+}
+
+.actions:hover {
+    background:rgb(215, 97, 219) ;
+    
+}
+.topCard2 > p {
+    background-color:rgba(0, 0, 0, 0.24);
+    color: rgb(40, 21, 58);
+    font-weight: 650;
+}
